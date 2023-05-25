@@ -1,0 +1,55 @@
+:root {
+    --primary-color: #d73831;
+}
+@keyframes BotUpTop {
+    from {
+        opacity: 0;
+        top: 110px;
+    }
+    to {
+        opacity: 1;
+        top: 60px;
+    }
+}
+@keyframes SliderShow {
+    10% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: -100%;
+    }
+    30% {
+        margin-left: -100%;
+    }
+    40% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -100%;
+    }
+    60% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    80% {
+        margin-left: -200%;
+    }
+    90% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: -300%;
+    }
+}
+@keyframes Opacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
